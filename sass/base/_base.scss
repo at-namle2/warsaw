@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 15px;
+  color: map-get($color, gray);
+  line-height: 1.8em;
+  font-weight: 400;
+  background: map-get($color, white);
+}
+h1, h2 , h3, h4, h5, h6 {
+  font-family: 'Grand Hotel', cursive;
+  font-weight: normal;
+  margin: 0px;
+  background: none;
+  line-height: 1.6em;
+}
+.font-size-12 {
+  font-size: 12px;
+}
+.font-size-14 {
+  font-size: 14px;
+}
+.font-size-16 {
+  font-size: 16px;
+}
+.font-size-18 {
+  font-size: 18px;
+}
+.font-size-20 {
+  font-size: 20px;
+}
+.font-size-22 {
+  font-size: 22px;
+}
+.font-size-24 {
+  font-size: 24px;
+}
+.font-size-30 {
+  font-size: 30px;
+}
+.font-size-32 {
+  font-size: 32px;
+}
+.font-size-34 {
+  font-size: 34px;
+}
+.font-size-40 {
+  font-size: 40px;
+}
+.font-size-48 {
+  font-size: 48px;
+}
+.font-size-80 {
+  font-size: 80px;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+.align-left {
+  text-align: left;
+}
+.align-right {
+  text-align: right;
+}
+.align-center {
+  text-align: center;
+}
