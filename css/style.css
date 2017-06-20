@@ -132,6 +132,9 @@ h1, h2, h3, h4, h5, h6 {
 .font-size-12 {
   font-size: 12px; }
 
+.font-size-13 {
+  font-size: 13px; }
+
 .font-size-14 {
   font-size: 14px; }
 
@@ -186,9 +189,24 @@ h1, h2, h3, h4, h5, h6 {
 .align-center {
   text-align: center; }
 
+.top-header .menu-main {
+  margin: 0;
+  padding: 0; }
+
 .container {
   max-width: 1200px;
   padding: 0px 15px;
   margin: 0 auto; }
+
+.top-header .menu-main .menu-item {
+  display: inline-block;
+  padding: 28px 0px;
+  margin-left: 50px; }
+  .top-header .menu-main .menu-item .menu-item-a {
+    text-decoration: none; }
+    .top-header .menu-main .menu-item .menu-item-a.active {
+      color: #5ec79c; }
+    .top-header .menu-main .menu-item .menu-item-a .fadown {
+      padding-left: 8px; }
 
 /*# sourceMappingURL=style.css.map */

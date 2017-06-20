@@ -1,0 +1,19 @@
+.top-header {
+  .menu-main {
+    @extend %no-mr-pd;
+    .menu-item {
+      display: inline-block;
+      padding: 28px 0px;
+      margin-left: 50px;
+      .menu-item-a {
+        text-decoration: none;
+        &.active {
+          color: map-get($color, green);
+        }
+        .fadown {
+          padding-left: 8px;
+        }
+      }
+    }
+  }
+}
