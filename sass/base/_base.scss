@@ -52,7 +52,11 @@ h1, h2 , h3, h4, h5, h6 {
     color: map-get($color, green);
   }
 }
+.font-robo-condensed {
+  font-family: 'Roboto Condensed', sans-serif;
+}
 .img {
+  max-width: 100%;
   width: 100%;
 }
 .font-size-12 {
@@ -79,6 +83,12 @@ h1, h2 , h3, h4, h5, h6 {
 .font-size-24 {
   font-size: 24px;
 }
+.font-size-25 {
+  font-size: 25px;
+}
+.font-size-28 {
+  font-size: 28px;
+}
 .font-size-30 {
   font-size: 30px;
 }
@@ -96,6 +106,12 @@ h1, h2 , h3, h4, h5, h6 {
 }
 .font-size-48 {
   font-size: 48px;
+}
+.font-size-52 {
+  font-size: 52px;
+}
+.font-size-64 {
+  font-size: 64px;
 }
 .font-size-80 {
   font-size: 80px;

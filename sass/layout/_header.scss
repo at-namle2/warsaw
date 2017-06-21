@@ -7,6 +7,7 @@
       margin-left: 50px;
       .menu-item-a {
         text-decoration: none;
+        color: map-get($color, gray);
         &.active {
           color: map-get($color, green);
         }
