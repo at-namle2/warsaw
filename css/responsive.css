@@ -1,0 +1,51 @@
+@media only screen and (max-width: 320px) {
+  .img-logo {
+    width: 100%;
+    max-width: 100%;
+  }
+  .menu-main {
+    display: none;
+  }
+  .nav-toggler {
+    position: absolute;
+    top: 8px;
+    right: 9px;
+    display: block !important;
+    background: #5ec79c;
+    height: 36px;
+    width: 42px;
+    text-align: center;
+    border-radius: 3px;
+    border: 1px solid #5ec79c;
+  }
+  .icon {
+    color: #ffffff;
+    padding-top: 10px;
+  }
+  .content-box {
+    position: relative !important;
+    top: 30px !important;;
+    z-index: 1;
+    padding: 0 !important;
+  }
+  .title-farm, .title-locally, .btn-hidden {
+    display: none;
+  }
+  .col-responsive {
+    width: 100%;
+  }
+  .title-organe, .desc-text  {
+    text-align: center;
+  }
+  .read-more-hidden {
+    display: block;
+    text-align: center;
+  }
+  .title-organe {
+    text-align: center !important;
+    margin-top: 30px;
+  }
+  .inner-box::before {
+    background: none !important;
+  }
+}

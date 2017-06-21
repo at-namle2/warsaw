@@ -283,10 +283,14 @@ h1, h2, h3, h4, h5, h6 {
   .top-header .menu-main .menu-item .menu-item-a {
     text-decoration: none;
     color: #777777; }
+    .top-header .menu-main .menu-item .menu-item-a:hover {
+      color: #5ec79c; }
     .top-header .menu-main .menu-item .menu-item-a.active {
       color: #5ec79c; }
     .top-header .menu-main .menu-item .menu-item-a .fadown {
       padding-left: 8px; }
+.top-header .nav-toggler {
+  display: none; }
 
 .footer-upper {
   padding: 100px 0 50px; }
@@ -333,7 +337,7 @@ h1, h2, h3, h4, h5, h6 {
   .shows-slide .farm-fresh {
     position: absolute;
     top: 25%;
-    left: 40%; }
+    left: 36%; }
     .shows-slide .farm-fresh .title-farm {
       color: #ffffff; }
     .shows-slide .farm-fresh .title-locally {
