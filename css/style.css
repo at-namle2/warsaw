@@ -116,15 +116,41 @@ h1, h2, h3, h4, h5, h6 {
   -o-border-radius: 25px;
   border-radius: 25px;
   cursor: pointer;
-  padding: 8px 30px;
+  padding: 12px 30px;
   line-height: 24px;
   letter-spacing: 0; }
   .btn.btn-organe {
     background: #f5b062;
     color: #5ec79c;
     text-decoration: none; }
+    .btn.btn-organe:hover {
+      background: transparent;
+      border: 2px solid #f5b062;
+      color: #ffffff; }
   .btn.btn-green {
-    color: #5ec79c; }
+    color: #ffffff;
+    background: #5ec79c;
+    text-decoration: none; }
+    .btn.btn-green:hover {
+      background: transparent;
+      border: 2px solid #5ec79c;
+      color: #5ec79c; }
+  .btn.btn-green-2 {
+    background: transparent;
+    border: 2px solid #5ec79c;
+    color: #5ec79c;
+    text-decoration: none; }
+    .btn.btn-green-2:hover {
+      background: #5ec79c;
+      color: #ffffff; }
+  .btn.btn-white {
+    color: #ffffff;
+    background: transparent;
+    text-decoration: none;
+    border: 2px solid #ffffff; }
+    .btn.btn-white:hover {
+      background: #ffffff;
+      color: #000000; }
 
 .font-robo-condensed {
   font-family: 'Roboto Condensed', sans-serif; }
@@ -212,13 +238,38 @@ h1, h2, h3, h4, h5, h6 {
   visibility: hidden;
   height: 0; }
 
-.top-header .menu-main, .our-new-products .row-well .menu-filer .menu-new, .our-partners .menu-owl-loaded {
+.top-header .menu-main, .footer-upper .info, .our-new-products .row-well .menu-filer .menu-new, .our-partners .menu-owl-loaded {
   margin: 0;
   padding: 0; }
 
 .stay-for-updates .left-stay .inner-box .input {
   outline: none;
   border: none; }
+
+.deal-of-day .owl-nav .owl-prev, .deal-of-day .owl-nav .owl-next {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  color: #f5b062;
+  border: 2px solid #f5b062;
+  border-radius: 3px;
+  line-height: 37px; }
+  .deal-of-day .owl-nav .owl-prev:hover, .deal-of-day .owl-nav .owl-next:hover {
+    background: #f5b062;
+    color: #ffffff; }
+
+.deal-of-day .our-stage-outer .our-stage .slide-col .theme-btn, .deal-of-day .our-stage-outer .our-stage .slide-col .shop-btn {
+  position: relative;
+  top: 46px;
+  padding: 12px 15px;
+  width: 44px;
+  height: 44px;
+  color: #5ec79c;
+  border: 2px solid #5ec79c;
+  margin-right: 10px; }
+  .deal-of-day .our-stage-outer .our-stage .slide-col .theme-btn:hover, .deal-of-day .our-stage-outer .our-stage .slide-col .shop-btn:hover {
+    background: #5ec79c;
+    color: #ffffff; }
 
 .container {
   max-width: 1200px;
@@ -236,6 +287,46 @@ h1, h2, h3, h4, h5, h6 {
       color: #5ec79c; }
     .top-header .menu-main .menu-item .menu-item-a .fadown {
       padding-left: 8px; }
+
+.footer-upper {
+  padding: 100px 0 50px; }
+  .footer-upper .desc-footer {
+    color: #777777; }
+  .footer-upper .gal-img:hover {
+    opacity: 0.80; }
+  .footer-upper .title-footer {
+    position: relative;
+    margin-bottom: 35px;
+    color: #000000;
+    font-weight: 700; }
+    .footer-upper .title-footer:after {
+      position: absolute;
+      content: '';
+      width: 30px;
+      left: 0;
+      top: 24px;
+      border-bottom: 1px solid #5ec79c; }
+  .footer-upper .info .info-item {
+    padding-bottom: 14px;
+    color: #777777; }
+    .footer-upper .info .info-item .infor-item-a {
+      color: #777777;
+      text-decoration: none; }
+      .footer-upper .info .info-item .infor-item-a:hover {
+        color: #f5b062; }
+  .footer-upper .links {
+    padding-top: 6px; }
+    .footer-upper .links .links-a-fa {
+      color: #777777;
+      padding-right: 10px; }
+      .footer-upper .links .links-a-fa:hover {
+        color: #f5b062; }
+
+.footer-bottom {
+  padding: 25px 0;
+  background: #e0e0e0; }
+  .footer-bottom .copyright {
+    color: #bdbdbd; }
 
 .shows-slide {
   position: relative; }
@@ -354,7 +445,7 @@ h1, h2, h3, h4, h5, h6 {
       content: '';
       position: absolute;
       left: 50%;
-      margin-left: -136px;
+      margin-left: -75px;
       width: 160px;
       height: 160px;
       border-radius: 50%;
@@ -366,15 +457,16 @@ h1, h2, h3, h4, h5, h6 {
         content: '';
         position: absolute;
         left: 50%;
-        margin-left: -158px;
+        margin-left: -100px;
         width: 200px;
         height: 200px;
         border-radius: 50%;
-        top: -15px;
+        top: -20px;
         border: 1px solid #5ec79c; }
     .about-our-farm .circle .circle-item .circle-txt {
       position: absolute;
-      top: 50%; }
+      top: 50%;
+      left: 40%; }
   .about-our-farm .tab {
     padding-top: 50px; }
     .about-our-farm .tab .title-look {
@@ -508,7 +600,8 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   padding: 140px 0 140px;
   background: url(../images/bg/pattern.png) no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  margin-bottom: 120px; }
   .deal-of-day:before {
     content: '';
     position: absolute;
@@ -519,22 +612,6 @@ h1, h2, h3, h4, h5, h6 {
     background: rgba(244, 238, 222, 0.94); }
   .deal-of-day .owl-nav {
     position: relative; }
-    .deal-of-day .owl-nav .owl-prev {
-      display: inline-block;
-      width: 40px;
-      height: 40px;
-      color: #f5b062;
-      border: 2px solid #f5b062;
-      border-radius: 3px;
-      line-height: 37px; }
-    .deal-of-day .owl-nav .owl-next {
-      display: inline-block;
-      width: 40px;
-      height: 40px;
-      color: #f5b062;
-      border: 2px solid #f5b062;
-      border-radius: 3px;
-      line-height: 37px; }
   .deal-of-day .title-box {
     position: relative; }
     .deal-of-day .title-box .title-box-save {
@@ -547,67 +624,69 @@ h1, h2, h3, h4, h5, h6 {
     right: 0; }
     .deal-of-day .our-stage-outer .our-stage .slide-col {
       margin-top: 100px; }
+      .deal-of-day .our-stage-outer .our-stage .slide-col .title-slide-soup {
+        color: #000000; }
+      .deal-of-day .our-stage-outer .our-stage .slide-col .title-price {
+        color: #000000; }
       .deal-of-day .our-stage-outer .our-stage .slide-col .theme-btn {
-        position: relative;
-        top: 46px;
-        padding: 8px 15px;
-        width: 44px;
-        height: 44px;
-        border-radius: 5px;
-        color: #5ec79c;
-        border: 2px solid #5ec79c;
-        margin-right: 10px; }
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -o-border-radius: 5px;
+        border-radius: 5px; }
       .deal-of-day .our-stage-outer .our-stage .slide-col .shop-btn {
         -webkit-border-radius: 22px;
         -moz-border-radius: 22px;
         -o-border-radius: 22px;
         border-radius: 22px;
-        position: relative;
         text-decoration: none;
-        top: 46px;
-        padding: 8px 35px;
-        width: 44px;
-        height: 44px;
-        color: #5ec79c;
-        border: 2px solid #5ec79c;
-        margin-right: 10px; }
+        padding: 12px 35px; }
 
-.team-our-farmers .sec-title {
-  position: relative;
-  padding-top: 70px;
-  padding-bottom: 10px;
-  margin-bottom: 50px; }
-  .team-our-farmers .sec-title:after {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 80px;
-    background: url(../images/icon/icon-crops.png) center top no-repeat; }
-  .team-our-farmers .sec-title:before {
-    content: '';
-    position: absolute;
-    margin-left: -20px;
-    left: 50%;
-    bottom: 0;
-    width: 40px;
-    height: 2px;
-    background: #5ec79c; }
-.team-our-farmers .default-team {
-  margin-bottom: 30px;
-  border: 1px solid #e0e0e0; }
-  .team-our-farmers .default-team .team-img {
-    height: 330px; }
-  .team-our-farmers .default-team .img-colum {
-    width: 50%;
-    float: left; }
-    .team-our-farmers .default-team .img-colum .inner {
-      padding: 50px 50px 20px; }
-      .team-our-farmers .default-team .img-colum .inner .text {
-        color: #bdbdbd; }
-  .team-our-farmers .default-team .inner-rigth {
-    padding: 50px 50px 74px; }
+.team-our-farmers {
+  margin-bottom: 120px; }
+  .team-our-farmers .sec-title {
+    position: relative;
+    padding-top: 70px;
+    padding-bottom: 10px;
+    margin-bottom: 50px; }
+    .team-our-farmers .sec-title:after {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 80px;
+      background: url(../images/icon/icon-crops.png) center top no-repeat; }
+    .team-our-farmers .sec-title:before {
+      content: '';
+      position: absolute;
+      margin-left: -20px;
+      left: 50%;
+      bottom: 0;
+      width: 40px;
+      height: 2px;
+      background: #5ec79c; }
+  .team-our-farmers .default-team {
+    margin-bottom: 30px;
+    border: 1px solid #e0e0e0; }
+    .team-our-farmers .default-team .team-img {
+      height: 330px; }
+    .team-our-farmers .default-team .img-colum {
+      width: 50%;
+      float: left; }
+      .team-our-farmers .default-team .img-colum .inner {
+        padding: 50px 50px 20px; }
+        .team-our-farmers .default-team .img-colum .inner .text {
+          color: #bdbdbd; }
+      .team-our-farmers .default-team .img-colum .social-links .social-links-a {
+        color: #777777; }
+        .team-our-farmers .default-team .img-colum .social-links .social-links-a:hover {
+          color: #f5b062; }
+    .team-our-farmers .default-team .inner-rigth {
+      padding: 50px 50px 74px; }
+      .team-our-farmers .default-team .inner-rigth .social-links .social-links-a {
+        color: #777777; }
+        .team-our-farmers .default-team .inner-rigth .social-links .social-links-a:hover {
+          color: #f5b062; }
 
 .testimonial-section {
   position: relative;
@@ -762,7 +841,8 @@ h1, h2, h3, h4, h5, h6 {
         height: 44px;
         border-bottom: 2px solid #ffffff;
         background: transparent;
-        padding: 0 15px; }
+        padding: 0 15px;
+        font-size: 15px; }
   .stay-for-updates .right-stay {
     z-index: 1;
     position: absolute;

@@ -147,7 +147,7 @@
         content: '';
         position: absolute;
         left: 50%;
-        margin-left: -136px;
+        margin-left: -75px;
         width: 160px;
         height: 160px;
         border-radius: 50%;
@@ -160,17 +160,18 @@
           content: '';
           position: absolute;
           left: 50%;
-          margin-left: -158px;
+          margin-left: -100px;
           width: 200px;
           height: 200px;
           border-radius: 50%;
-          top: -15px;
+          top: -20px;
           border: 1px solid map-get($color, green);
         }
       }
       .circle-txt {
         position: absolute;
         top: 50%;
+        left: 40%;
       }
     }
   }
@@ -345,6 +346,7 @@
   padding: 140px 0 140px;
   background: url(../images/bg/pattern.png) no-repeat;
   background-size: cover;
+  margin-bottom: 120px;
   &:before {
     content: '';
     position: absolute;
@@ -357,22 +359,10 @@
   .owl-nav {
     position: relative;
     .owl-prev {
-      display: inline-block;
-      width: 40px;
-      height: 40px;
-      color: map-get($color, orange);
-      border: 2px solid  map-get($color, orange);
-      border-radius: 3px;
-      line-height: 37px;
+      @extend %owl;
     }
     .owl-next {
-      display: inline-block;
-      width: 40px;
-      height: 40px;
-      color: map-get($color, orange);
-      border: 2px solid  map-get($color, orange);
-      border-radius: 3px;
-      line-height: 37px;
+     @extend %owl;
     }
   }
   .title-box {
@@ -391,28 +381,21 @@
     .our-stage {
       .slide-col {
         margin-top: 100px;
+        .title-slide-soup {
+          color: map-get($color, black);
+        }
+        .title-price {
+          color: map-get($color, black);
+        }
         .theme-btn {
-          position: relative;
-          top: 46px;
-          padding: 8px 15px;
-          width: 44px;
-          height: 44px;
-          border-radius: 5px;
-          color: map-get($color, green);
-          border: 2px solid map-get($color, green);
-          margin-right: 10px;
+          @include border-radius(5px);
+          @extend %theme-btn;
         }
         .shop-btn {
           @include border-radius(22px);
-          position: relative;
+          @extend %theme-btn;
           text-decoration: none;
-          top: 46px;
-          padding: 8px 35px;
-          width: 44px;
-          height: 44px;
-          color: map-get($color, green);
-          border: 2px solid map-get($color, green);
-          margin-right: 10px;
+          padding: 12px 35px;
         }
       }
     }
@@ -420,6 +403,7 @@
 }
 // * our-new-products *//
 .team-our-farmers {
+  margin-bottom: 120px;
   .sec-title {
     position: relative;
     padding-top: 70px;
@@ -461,11 +445,28 @@
           color: map-get($color, gray-5);
         }
       }
+      .social-links {
+        .social-links-a {
+          color: map-get($color, gray);
+          &:hover {
+            color: map-get($color, orange);
+          }
+        }
+      }
     }
     .inner-rigth {
       padding: 50px 50px 74px;
+      .social-links {
+        .social-links-a {
+          color: map-get($color, gray);
+          &:hover {
+            color: map-get($color, orange);
+          }
+        }
+      }
     }
   }
+
 }
 // * team-our-farmers *//
 .testimonial-section {
@@ -641,6 +642,7 @@
         border-bottom: 2px solid map-get($color, white);
         background: transparent;
         padding: 0 15px;
+        font-size: 15px;
       }
     }
   }

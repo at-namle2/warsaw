@@ -15,4 +15,30 @@
   outline: none;
   border: none;
 }
-
+%owl {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  color: map-get($color, orange);
+  border: 2px solid  map-get($color, orange);
+  border-radius: 3px;
+  line-height: 37px;
+  &:hover {
+    background: map-get($color, orange);
+    color:  map-get($color, white);
+  }
+}
+%theme-btn {
+  position: relative;
+  top: 46px;
+  padding: 12px 15px;
+  width: 44px;
+  height: 44px;
+  color: map-get($color, green);
+  border: 2px solid map-get($color, green);
+  margin-right: 10px;
+  &:hover {
+    background: map-get($color, green);
+    color:  map-get($color, white);
+  }
+}

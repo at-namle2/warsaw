@@ -40,16 +40,48 @@ h1, h2 , h3, h4, h5, h6 {
 .btn {
   @include border-radius(25px);
   cursor: pointer;
-  padding: 8px 30px;
+  padding: 12px 30px;
   line-height: 24px;
   letter-spacing: 0;
   &.btn-organe {
     background: map-get($color, orange);
     color: map-get($color, green);
     text-decoration: none;
+    &:hover {
+      background: transparent;
+      border: 2px solid map-get($color, orange);
+      color: map-get($color, white);
+    }
   }
   &.btn-green {
+    color: map-get($color, white);
+    background: map-get($color, green);
+    text-decoration: none;
+    &:hover {
+      background: transparent;
+      border: 2px solid map-get($color, green);
+      color: map-get($color, green);
+    }
+  }
+  &.btn-green-2 {
+    background: transparent;
+    border: 2px solid map-get($color, green);
     color: map-get($color, green);
+    text-decoration: none;
+    &:hover {
+      background: map-get($color, green);
+      color: map-get($color, white);
+    }
+  }
+  &.btn-white {
+    color: map-get($color, white);
+    background: transparent;
+    text-decoration: none;
+    border: 2px solid map-get($color, white);
+    &:hover {
+      background: map-get($color, white);
+      color: map-get($color, black);
+    }
   }
 }
 .font-robo-condensed {

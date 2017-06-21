@@ -1,0 +1,56 @@
+.footer-upper {
+  padding: 100px 0 50px;
+  .desc-footer {
+    color: map-get($color, gray);
+  }
+  .gal-img {
+    &:hover {
+      opacity: 0.80;
+    }
+  }
+  .title-footer {
+    position: relative;
+    margin-bottom: 35px;
+    color: map-get($color, black);
+    font-weight: 700;
+    &:after {
+      position: absolute;
+      content: '';
+      width: 30px;
+      left: 0;
+      top: 24px;
+      border-bottom: 1px solid map-get($color, green);
+    }
+  }
+  .info {
+    @extend %no-mr-pd;
+    .info-item {
+      padding-bottom: 14px;
+      color: map-get($color, gray);
+      .infor-item-a {
+        color: map-get($color, gray);
+        text-decoration: none;
+        &:hover {
+          color: map-get($color, orange);
+        }
+      }
+    }
+  }
+  .links {
+    padding-top: 6px;
+    .links-a-fa {
+      color: map-get($color, gray);
+      padding-right: 10px;
+      &:hover {
+        color: map-get($color, orange);
+      }
+    }
+  }
+}
+.footer-bottom {
+  padding: 25px 0;
+  background: map-get($color, gray-4);
+  .copyright {
+    color: map-get($color, gray-5);
+  }
+}
