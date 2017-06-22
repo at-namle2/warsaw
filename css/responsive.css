@@ -22,6 +22,10 @@
     color: #ffffff;
     padding-top: 10px;
   }
+  .col-responsive {
+    width: 100% !important;
+  }
+  /*intro-bkg-content*/
   .content-box {
     position: relative !important;
     top: 30px !important;;
@@ -30,9 +34,6 @@
   }
   .title-farm, .title-locally, .btn-hidden {
     display: none;
-  }
-  .col-responsive {
-    width: 100%;
   }
   .title-organe, .desc-text  {
     text-align: center;
@@ -47,5 +48,538 @@
   }
   .inner-box::before {
     background: none !important;
+  }
+  /*our-new-products*/
+  .fruit {
+    width: 100% !important;
+    margin: 30px 30px 0 0;
+    float: none;
+  }
+  .circle-item {
+    width: 100% !important;
+  }
+  .circle-txt {
+    left: 44% !important;
+  }
+  .title-look {
+    padding: 0 25px 20px;
+    width: 100%;
+  }
+  .desc-beautiful {
+    width: 100%;
+    padding: 0 14px;
+  }
+  /*outer-box*/
+  .img-left, .img-right {
+    display: none;
+  }
+  .save-up-box {
+   float: none !important;
+   width: auto !important;
+  }
+ .free-shipping-box {
+    position: relative !important;
+    top: -377px !important;
+    right: 0px !important;
+    width: auto !important;
+  }
+  .right-column {
+    height: 0;
+  }
+  .owl-nav {
+    display: none;
+  }
+  .title-box {
+    position: absolute !important;
+    top: 0px;
+    width: 100%;
+    padding: 0 -20px;
+    font-size: 32px;
+  }
+  .save-up-box {
+    margin-left: 10px;
+  }
+  /*deal-of-day*/
+  .deal-of-day {
+    width: 100%;
+    padding: 400px 0 140px !important;
+  }
+  .title-box-save {
+    text-align: center;
+  }
+  .title-box-deal {
+    font-size: 52px;
+    text-align: center;
+  }
+  .img-our {
+    position: absolute;
+    right: 0px;
+    top: 80px;
+    width: 100%;
+  }
+  .slide-col {
+    margin-top: 300px !important;
+    text-align: center;
+    width: 100%;
+  }
+  /*team-our-farmers*/
+  .img-colum {
+    width: auto !important;
+    float: none !important;
+  }
+  /*testimonial-section*/
+  .desc-carousel {
+    margin-left: 0 !important;
+  }
+  .queto-infor {
+    padding: 0 !important;
+    text-align: center !important;
+  }
+  .img-author {
+    position: relative !important;
+    top: 10px;
+  }
+  .icon-box {
+    display: none;
+  }
+  /*.stay-for-updates*/
+  .stay-for-updates {
+    padding: 20px 0 120px !important;
+  }
+  .right-stay {
+    z-index: 1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    bottom: -320px !important;
+  }
+  .inner-box {
+    width: 100% !important;
+    text-align: center !important;
+  }
+  .title-over {
+    width: 100%;
+    text-align: center;
+    padding: 0 50px;
+  }
+  .title-purchase {
+    width: 100%;
+    padding: 0 50px;
+  }
+  .input {
+    width: 100% !important;
+    padding: 0 6px !important;
+    margin: 24px 54px !important;
+    text-align: center !important;
+  }
+  .send {
+    display: block;
+    width: 100%;
+    margin: 0 34px;
+  }
+  .stay-responsive {
+    z-index: 1 !important;
+    position: absolute !important;
+    height: 100% !important;
+    width: 100% !important;
+    bottom: -320px !important;
+    top: auto !important;
+  }
+  /*footer-upper*/
+  .footer-upper {
+    padding: 260px 0 50px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .img-logo {
+    width: 100%;
+    max-width: 100%;
+  }
+  .menu-main {
+    display: none;
+  }
+  .nav-toggler {
+    position: absolute;
+    top: 8px;
+    right: 9px;
+    display: block !important;
+    background: #5ec79c;
+    height: 36px;
+    width: 42px;
+    text-align: center;
+    border-radius: 3px;
+    border: 1px solid #5ec79c;
+  }
+  .icon {
+    color: #ffffff;
+    padding-top: 10px;
+  }
+  .col-responsive {
+    width: 100% !important;
+  }
+  /*intro-bkg-content*/
+  .content-box {
+    position: relative !important;
+    top: 30px !important;;
+    z-index: 1;
+    padding: 0 !important;
+  }
+  .title-farm, .title-locally, .btn-hidden {
+    display: none;
+  }
+  .title-organe, .desc-text  {
+    text-align: center;
+  }
+  .read-more-hidden {
+    display: block;
+    text-align: center;
+  }
+  .title-organe {
+    text-align: center !important;
+    margin-top: 30px;
+  }
+  .inner-box::before {
+    background: none !important;
+  }
+  /*.about-our-farm*/
+  .about-our-farm {
+    margin-top: 100px;
+  }
+  /*our-new-products*/
+  .fruit {
+    width: 100% !important;
+    margin: 30px 30px 0 0;
+    float: none;
+  }
+  .circle-item {
+    width: 100% !important;
+  }
+  .circle-txt {
+    left: 44% !important;
+  }
+  .title-look {
+    padding: 0 25px 20px;
+    width: 100%;
+  }
+  .desc-beautiful {
+    width: 100%;
+    padding: 0 14px;
+  }
+  /*outer-box*/
+  .img-left, .img-right {
+    display: none;
+  }
+  .save-up-box {
+    margin-left: 10px;
+  }
+  .save-up-box {
+   float: none !important;
+   width: auto !important;
+  }
+ .free-shipping-box {
+    position: relative !important;
+    top: -380px !important;
+    width: auto !important;
+  }
+  .title-on, .title-first-purchase {
+    margin-left: 8px;
+  }
+  .right-column {
+    height: 0;
+  }
+  .owl-nav {
+    display: none;
+  }
+  .title-box {
+    position: absolute !important;
+    top: 0px;
+    width: 100%;
+    padding: 0 -20px;
+    font-size: 32px;
+  }
+  /*deal-of-day*/
+  .deal-of-day {
+    width: 100%;
+    padding: 400px 0 140px !important;
+  }
+  .title-box-save {
+    text-align: center;
+  }
+  .title-box-deal {
+    font-size: 52px;
+    text-align: center;
+  }
+  .img-our {
+    position: absolute;
+    right: 0px;
+    top: 80px;
+    width: 100%;
+  }
+  .slide-col {
+    margin-top: 300px !important;
+    text-align: center;
+    width: 100%;
+  }
+  /*team-our-farmers*/
+  .img-colum {
+    width: auto !important;
+    float: none !important;
+  }
+  /*testimonial-section*/
+  .desc-carousel {
+    margin-left: 0 !important;
+  }
+  .queto-infor {
+    padding: 0 !important;
+    text-align: center !important;
+  }
+  .img-author {
+    position: relative !important;
+    top: 10px;
+  }
+  .icon-box {
+    display: none;
+  }
+   /*.stay-for-updates*/
+  .stay-for-updates {
+    padding: 20px 0 120px !important;
+  }
+  .right-stay {
+    z-index: 1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    bottom: -320px !important;
+  }
+  .inner-box {
+    width: 100% !important;
+    text-align: center !important;
+  }
+  .title-over {
+    width: 100%;
+    text-align: center;
+    padding: 0 90px;
+  }
+  .title-updates {
+    width: 100%;
+    padding: 0 90px;
+  }
+  .input {
+    width: 100% !important;
+    padding: 0 6px !important;
+    margin: 24px 90px !important;
+    text-align: center !important;
+  }
+  .send {
+    display: block;
+    width: 100%;
+    margin: 0 66px;
+  }
+  .stay-responsive {
+    z-index: 1 !important;
+    position: absolute !important;
+    height: 100% !important;
+    width: 100% !important;
+    bottom: -320px !important;
+    top: auto !important;
+  }
+  /*footer-upper*/
+  .footer-upper {
+    padding: 260px 0 50px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .img-logo {
+    width: 100%;
+    max-width: 100%;
+  }
+  .menu-main {
+    display: none;
+  }
+  .nav-toggler {
+    position: absolute;
+    top: 8px;
+    right: 9px;
+    display: block !important;
+    background: #5ec79c;
+    height: 36px;
+    width: 42px;
+    text-align: center;
+    border-radius: 3px;
+    border: 1px solid #5ec79c;
+  }
+  .icon {
+    color: #ffffff;
+    padding-top: 10px;
+  }
+  /*intro-bkg-content*/
+  .content-box {
+    position: relative !important;
+    top: 30px !important;;
+    z-index: 1;
+    padding: 0 !important;
+  }
+  .title-farm, .title-locally, .btn-hidden {
+    display: none;
+  }
+  .title-organe, .desc-text  {
+    text-align: center;
+  }
+  .read-more-hidden {
+    display: block;
+    text-align: center;
+  }
+  .title-organe {
+    text-align: center !important;
+    margin-top: 30px;
+  }
+  .inner-box::before {
+    background: none !important;
+  }
+  /*.about-our-farm*/
+  .about-our-farm {
+    margin-top: 100px;
+  }
+  /*our-new-products*/
+  .fruit {
+    width: 100% !important;
+    margin: 30px 30px 0 0;
+    float: none;
+  }
+  .circle-item {
+    width: 100% !important;
+  }
+  .circle-txt {
+    left: 44% !important;
+  }
+  .title-look {
+    padding: 0 25px 20px;
+    width: 100%;
+  }
+  .desc-beautiful {
+    width: 100%;
+    padding: 0 14px;
+  }
+  /*outer-box*/
+  .img-left, .img-right {
+    display: none;
+  }
+  .save-up-box {
+    margin-left: 10px;
+  }
+  .save-up-box {
+   float: none !important;
+   width: auto !important;
+  }
+ .free-shipping-box {
+    position: relative !important;
+    top: -380px !important;
+    width: auto !important;
+  }
+  .title-on, .title-first-purchase {
+    margin-left: 8px;
+  }
+  .right-column {
+    height: 0;
+  }
+  .owl-nav {
+    display: none;
+  }
+  .title-box {
+    position: absolute !important;
+    top: 0px;
+    width: 100%;
+    padding: 0 -20px;
+    font-size: 32px;
+  }
+  /*deal-of-day*/
+  .deal-of-day {
+    width: 100%;
+    padding: 400px 0 140px !important;
+  }
+  .title-box-save {
+    text-align: center;
+  }
+  .title-box-deal {
+    font-size: 52px;
+    text-align: center;
+  }
+  .img-our {
+    position: absolute;
+    right: 0px;
+    top: 80px;
+    width: 100%;
+  }
+  .slide-col {
+    margin-top: 300px !important;
+    text-align: center;
+    width: 100%;
+  }
+  /*team-our-farmers*/
+  .img-colum {
+    width: auto !important;
+    float: none !important;
+  }
+  /*testimonial-section*/
+  .desc-carousel {
+    margin-left: 0 !important;
+  }
+  .queto-infor {
+    padding: 0 !important;
+    text-align: center !important;
+  }
+  .img-author {
+    position: relative !important;
+    top: 10px;
+  }
+  .icon-box {
+    display: none;
+  }
+   /*.stay-for-updates*/
+  .stay-for-updates {
+    padding: 20px 0 120px !important;
+  }
+  .right-stay {
+    z-index: 1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    bottom: -320px !important;
+  }
+  .inner-box {
+    width: 100% !important;
+    text-align: center !important;
+  }
+  .title-over {
+    width: 100%;
+    text-align: center;
+    padding: 0 90px;
+  }
+  .title-updates {
+    width: 100%;
+    padding: 0 90px;
+  }
+  .input {
+    width: 100% !important;
+    padding: 0 6px !important;
+    margin: 24px 90px !important;
+    text-align: center !important;
+  }
+  .send {
+    display: block;
+    width: 100%;
+    margin: 0 66px;
+  }
+  .stay-responsive {
+    z-index: 1 !important;
+    position: absolute !important;
+    height: 100% !important;
+    width: 100% !important;
+    bottom: -320px !important;
+    top: auto !important;
+  }
+  /*footer-upper*/
+  .footer-upper {
+    padding: 260px 0 50px;
   }
 }

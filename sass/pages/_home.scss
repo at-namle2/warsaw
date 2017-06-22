@@ -239,17 +239,22 @@
       background: rgba(245,176,98,0.94);
    }
    .free-shipping-box {
+      position: relative;
       float: left;
-      width: 100%;
-      max-width: 400px;
-      padding: 70px 15px 0px 50px;
-      z-index: 2;
-      position: absolute;
-      top: 0;
+      top: -254px;
+      right: -14px;
+      width: 60%;
       .title-over {
         color: map-get($color, white);
       }
+      .title-dolar {
+        color: map-get($color, white);
+      }
       .title-purchase {
+        color: map-get($color, white);
+        padding-bottom: 20px;
+      }
+      .title-first-purchase {
         color: map-get($color, white);
         padding-bottom: 20px;
       }
@@ -632,7 +637,7 @@
       .title-over {
         color: map-get($color, white);
       }
-      .title-purchase {
+      .title-updates {
         color: map-get($color, white);
       }
       .input {

@@ -46,6 +46,12 @@
       }
     }
   }
+  .social-links {
+    .title-follow  {
+      color: map-get($color, black);
+      font-weight: 700;
+    }
+  }
 }
 .footer-bottom {
   padding: 25px 0;
