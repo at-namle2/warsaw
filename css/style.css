@@ -271,6 +271,12 @@ h1, h2, h3, h4, h5, h6 {
     background: #5ec79c;
     color: #ffffff; }
 
+.intro-bkg-content:after, .intro-bkg-content .content-box .inner-box .sec-title:after, .outer-box .left-column:before, .our-new-products .sec-title:after, .deal-of-day:before, .team-our-farmers .sec-title:after, .testimonial-section:before, .our-partners .sec-title:after, .stay-for-updates:before {
+  content: '';
+  position: absolute;
+  left: 0px;
+  top: 0px; }
+
 .container {
   max-width: 1200px;
   padding: 0px 15px;
@@ -354,10 +360,6 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
   z-index: 12; }
   .intro-bkg-content:after {
-    content: '';
-    position: absolute;
-    left: 0px;
-    top: 0px;
     width: 100%;
     height: 100%;
     background: rgba(244, 238, 222, 0.94); }
@@ -395,10 +397,6 @@ h1, h2, h3, h4, h5, h6 {
         padding-bottom: 10px;
         margin-bottom: 50px; }
         .intro-bkg-content .content-box .inner-box .sec-title:after {
-          content: '';
-          position: absolute;
-          left: 0;
-          top: 0;
           width: 100%;
           height: 80px;
           background: url(../images/icon/icon-crops.png) center top no-repeat; }
@@ -498,12 +496,8 @@ h1, h2, h3, h4, h5, h6 {
     width: 50%;
     padding: 80px 0; }
     .outer-box .left-column:before {
-      content: '';
-      position: absolute;
       width: 50%;
       height: 100%;
-      top: 0;
-      left: 0;
       background: rgba(94, 199, 156, 0.94); }
     .outer-box .left-column .save-up-box {
       position: relative;
@@ -560,10 +554,6 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 10px;
     margin-bottom: 50px; }
     .our-new-products .sec-title:after {
-      content: '';
-      position: absolute;
-      left: 0;
-      top: 0;
       width: 100%;
       height: 80px;
       background: url(../images/icon/icon-crops.png) center top no-repeat; }
@@ -613,12 +603,8 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
   margin-bottom: 120px; }
   .deal-of-day:before {
-    content: '';
-    position: absolute;
     width: 100%;
     height: 100%;
-    top: 0;
-    left: 0;
     background: rgba(244, 238, 222, 0.94); }
   .deal-of-day .owl-nav {
     position: relative; }
@@ -659,10 +645,6 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 10px;
     margin-bottom: 50px; }
     .team-our-farmers .sec-title:after {
-      content: '';
-      position: absolute;
-      left: 0;
-      top: 0;
       width: 100%;
       height: 80px;
       background: url(../images/icon/icon-crops.png) center top no-repeat; }
@@ -704,12 +686,8 @@ h1, h2, h3, h4, h5, h6 {
   background: url(../images/bg/pattern.png) no-repeat;
   background-size: cover; }
   .testimonial-section:before {
-    content: '';
-    position: absolute;
     width: 100%;
     height: 100%;
-    top: 0;
-    left: 0;
     background: rgba(94, 199, 156, 0.94); }
   .testimonial-section .oval-cut {
     position: absolute;
@@ -799,10 +777,6 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 10px;
     margin-bottom: 50px; }
     .our-partners .sec-title:after {
-      content: '';
-      position: absolute;
-      left: 0;
-      top: 0;
       width: 100%;
       height: 80px;
       background: url(../images/icon/icon-crops.png) center top no-repeat; }
@@ -824,12 +798,8 @@ h1, h2, h3, h4, h5, h6 {
   background: url(../images/bg/pattern.png) no-repeat;
   background-size: cover; }
   .stay-for-updates:before {
-    content: '';
-    position: absolute;
     width: 100%;
     height: 100%;
-    top: 0;
-    left: 0;
     background: rgba(245, 176, 98, 0.94); }
   .stay-for-updates .left-stay {
     position: relative;
@@ -856,12 +826,12 @@ h1, h2, h3, h4, h5, h6 {
   .stay-for-updates .right-stay {
     z-index: 1;
     position: absolute;
+    top: 0px;
+    right: 0px;
+    margin: 0px;
     height: 100%;
     width: 50%;
     padding: 0px;
-    border-width: 0px;
-    margin: 0px;
-    right: 0px;
-    top: 0px; }
+    border-width: 0px; }
 
 /*# sourceMappingURL=style.css.map */

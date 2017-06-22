@@ -1,11 +1,13 @@
-@media screen and (max-width: 321px) {
+$break-small: 321px;
+$break-medium: 480px;
+@media screen and (max-width: $break-small) {
   .img-logo {
     width: 100%;
-    max-width: 100%; }
-
+    max-width: 100%;
+  }
   .menu-main {
-    display: none; }
-
+    display: none;
+  }
   .nav-toggler {
     position: absolute;
     top: 8px;
@@ -16,181 +18,189 @@
     width: 42px;
     text-align: center;
     border-radius: 3px;
-    border: 1px solid #5ec79c; }
-    .nav-toggler .icon {
+    border: 1px solid #5ec79c;
+    .icon {
       color: #ffffff;
-      padding-top: 10px; }
-
+      padding-top: 10px;
+    }
+  }
   .col-responsive {
-    width: 100% !important; }
-
+    width: 100% !important;
+  }
   /*intro-bkg-content*/
   .content-box {
     position: relative !important;
-    top: 30px !important;
+    top: 30px !important;;
     z-index: 1;
-    padding: 0 !important; }
-    .content-box .inner-box::before {
-      background: none !important; }
-    .content-box .desc-text {
-      text-align: center; }
-    .content-box .read-more-hidden {
+    padding: 0 !important;
+    .inner-box::before {
+      background: none !important;
+    }
+    .desc-text  {
+      text-align: center;
+    }
+    .read-more-hidden {
       display: block;
-      text-align: center; }
-    .content-box .title-organe {
+      text-align: center;
+    }
+    .title-organe {
       text-align: center !important;
-      margin-top: 30px; }
-
+      margin-top: 30px;
+    }
+  }
   .title-farm, .title-locally, .btn-hidden {
-    display: none; }
-
+    display: none;
+  }
   /*our-new-products*/
   .fruit {
     width: 100% !important;
     margin: 30px 30px 0 0;
-    float: none; }
-
+    float: none;
+  }
   .circle-item {
-    width: 100% !important; }
-
+    width: 100% !important;
+  }
   .circle-txt {
-    left: 44% !important; }
-
+    left: 44% !important;
+  }
   .title-look {
     padding: 0 25px 20px;
-    width: 100%; }
-
+    width: 100%;
+  }
   .desc-beautiful {
     width: 100%;
-    padding: 0 14px; }
-
+    padding: 0 14px;
+  }
   /*outer-box*/
   .img-left, .img-right {
-    display: none; }
-
+    display: none;
+  }
   .save-up-box {
-    float: none !important;
-    width: auto !important; }
-
-  .free-shipping-box {
+   float: none !important;
+   width: auto !important;
+  }
+ .free-shipping-box {
     position: relative !important;
     top: -377px !important;
     right: 0px !important;
-    width: auto !important; }
-
+    width: auto !important;
+  }
   .right-column {
-    height: 0; }
-
+    height: 0;
+  }
   .owl-nav {
-    display: none; }
-
+    display: none;
+  }
   .title-box {
     position: absolute !important;
     top: 0px;
     width: 100%;
     padding: 0 -20px;
-    font-size: 32px; }
-
+    font-size: 32px;
+  }
   .save-up-box {
-    margin-left: 10px; }
-
+    margin-left: 10px;
+  }
   /*deal-of-day*/
   .deal-of-day {
     width: 100%;
-    padding: 400px 0 140px !important; }
-
+    padding: 400px 0 140px !important;
+  }
   .title-box-save {
-    text-align: center; }
-
+    text-align: center;
+  }
   .title-box-deal {
     font-size: 52px;
-    text-align: center; }
-
+    text-align: center;
+  }
   .img-our {
     position: absolute;
     right: 0px;
     top: 80px;
-    width: 100%; }
-
+    width: 100%;
+  }
   .slide-col {
     margin-top: 300px !important;
     text-align: center;
-    width: 100%; }
-
+    width: 100%;
+  }
   /*team-our-farmers*/
   .img-colum {
     width: auto !important;
-    float: none !important; }
-
+    float: none !important;
+  }
   /*testimonial-section*/
   .desc-carousel {
-    margin-left: 0 !important; }
-
+    margin-left: 0 !important;
+  }
   .queto-infor {
     padding: 0 !important;
-    text-align: center !important; }
-
+    text-align: center !important;
+  }
   .img-author {
     position: relative !important;
-    top: 10px; }
-
+    top: 10px;
+  }
   .icon-box {
-    display: none; }
-
+    display: none;
+  }
   /*.stay-for-updates*/
   .stay-for-updates {
-    padding: 20px 0 120px !important; }
-
+    padding: 20px 0 120px !important;
+  }
   .right-stay {
     z-index: 1;
     position: absolute;
     height: 100%;
     width: 100%;
-    bottom: -320px !important; }
-
+    bottom: -320px !important;
+  }
   .inner-box {
     width: 100% !important;
-    text-align: center !important; }
-
+    text-align: center !important;
+  }
   .title-over {
     width: 100%;
     text-align: center;
-    padding: 0 50px; }
-
+    padding: 0 50px;
+  }
   .title-purchase {
     width: 100%;
-    padding: 0 50px; }
-
+    padding: 0 50px;
+  }
   .input {
     width: 100% !important;
     padding: 0 6px !important;
     margin: 24px 54px !important;
-    text-align: center !important; }
-
+    text-align: center !important;
+  }
   .send {
     display: block;
     width: 100%;
-    margin: 0 34px; }
-
+    margin: 0 34px;
+  }
   .stay-responsive {
     z-index: 1 !important;
     position: absolute !important;
     height: 100% !important;
     width: 100% !important;
     bottom: -320px !important;
-    top: auto !important; }
-
+    top: auto !important;
+  }
   /*footer-upper*/
   .footer-upper {
-    padding: 260px 0 50px; } }
-@media screen and (max-width: 480px) {
+    padding: 260px 0 50px;
+  }
+}
+// responsive for screen 320px
+@media screen and (max-width: $break-medium) {
   .img-logo {
     width: 100%;
-    max-width: 100%; }
-
+    max-width: 100%;
+  }
   .menu-main {
-    display: none; }
-
+    display: none;
+  }
   .nav-toggler {
     position: absolute;
     top: 8px;
@@ -201,190 +211,200 @@
     width: 42px;
     text-align: center;
     border-radius: 3px;
-    border: 1px solid #5ec79c; }
-    .nav-toggler .icon {
+    border: 1px solid #5ec79c;
+    .icon {
       color: #ffffff;
-      padding-top: 10px; }
-
+      padding-top: 10px;
+    }
+  }
   .col-responsive {
-    width: 100% !important; }
-
+    width: 100% !important;
+  }
   /*intro-bkg-content*/
   .content-box {
     position: relative !important;
-    top: 30px !important;
+    top: 30px !important;;
     z-index: 1;
-    padding: 0 !important; }
-    .content-box .title-organe {
+    padding: 0 !important;
+    .title-organe {
       text-align: center !important;
-      margin-top: 30px; }
-    .content-box .read-more-hidden {
+      margin-top: 30px;
+    }
+    .read-more-hidden {
       display: block;
-      text-align: center; }
-
+      text-align: center;
+    }
+  }
   .title-farm, .title-locally, .btn-hidden {
-    display: none; }
-
-  .title-organe, .desc-text {
-    text-align: center; }
-
+    display: none;
+  }
+  .title-organe, .desc-text  {
+    text-align: center;
+  }
   .inner-box::before {
-    background: none !important; }
-
+    background: none !important;
+  }
   /*.about-our-farm*/
   .about-our-farm {
-    margin-top: 100px; }
-
+    margin-top: 100px;
+  }
   /*our-new-products*/
   .fruit {
     width: 100% !important;
     margin: 30px 30px 0 0;
-    float: none; }
-
+    float: none;
+  }
   .circle-item {
-    width: 100% !important; }
-
+    width: 100% !important;
+  }
   .circle-txt {
-    left: 44% !important; }
-
+    left: 44% !important;
+  }
   .title-look {
     padding: 0 25px 20px;
-    width: 100%; }
-
+    width: 100%;
+  }
   .desc-beautiful {
     width: 100%;
-    padding: 0 14px; }
-
+    padding: 0 14px;
+  }
   /*outer-box*/
   .img-left, .img-right {
-    display: none; }
-
+    display: none;
+  }
   .save-up-box {
-    margin-left: 10px; }
-
+    margin-left: 10px;
+  }
   .save-up-box {
-    float: none !important;
-    width: auto !important; }
-
-  .free-shipping-box {
+   float: none !important;
+   width: auto !important;
+  }
+ .free-shipping-box {
     position: relative !important;
     top: -380px !important;
-    width: auto !important; }
-    .free-shipping-box .title-first-purchase {
-      margin-left: 8px; }
-
+    width: auto !important;
+    .title-first-purchase {
+      margin-left: 8px;
+    }
+  }
   .title-on {
-    margin-left: 8px; }
-
+    margin-left: 8px;
+  }
   .right-column {
-    height: 0; }
-
+    height: 0;
+  }
   .owl-nav {
-    display: none; }
-
+    display: none;
+  }
   .title-box {
     position: absolute !important;
     top: 0px;
     width: 100%;
     padding: 0 -20px;
-    font-size: 32px; }
-
+    font-size: 32px;
+  }
   /*deal-of-day*/
   .deal-of-day {
     width: 100%;
-    padding: 400px 0 140px !important; }
-    .deal-of-day .title-box-save {
-      text-align: center; }
-    .deal-of-day .title-box-deal {
+    padding: 400px 0 140px !important;
+    .title-box-save {
+      text-align: center;
+    }
+    .title-box-deal {
       font-size: 52px;
-      text-align: center; }
-    .deal-of-day .img-our {
+      text-align: center;
+    }
+    .img-our {
       position: absolute;
       right: 34px;
       top: 80px;
-      width: 100%; }
-    .deal-of-day .slide-col {
+      width: 100%;
+    }
+    .slide-col {
       margin-top: 300px !important;
       text-align: center;
-      width: 100%; }
-
+      width: 100%;
+    }
+  }
   /*team-our-farmers*/
   .img-colum {
     width: auto !important;
-    float: none !important; }
-
+    float: none !important;
+  }
   /*testimonial-section*/
   .desc-carousel {
-    margin-left: 0 !important; }
-
+    margin-left: 0 !important;
+  }
   .queto-infor {
     padding: 0 !important;
-    text-align: center !important; }
-
+    text-align: center !important;
+  }
   .img-author {
     position: relative !important;
-    top: 10px; }
-
+    top: 10px;
+  }
   .icon-box {
-    display: none; }
-
-  /*.stay-for-updates*/
+    display: none;
+  }
+   /*.stay-for-updates*/
   .stay-for-updates {
-    padding: 20px 0 120px !important; }
-
+    padding: 20px 0 120px !important;
+  }
   .right-stay {
     z-index: 1;
     position: absolute;
     height: 100%;
     width: 100%;
-    bottom: -320px !important; }
-
+    bottom: -320px !important;
+  }
   .inner-box {
     width: 100% !important;
-    text-align: center !important; }
-
+    text-align: center !important;
+  }
   .title-over {
     width: 100%;
     text-align: center;
-    padding: 0 90px; }
-
+    padding: 0 90px;
+  }
   .title-updates {
     width: 100%;
-    padding: 0 90px; }
-
+    padding: 0 90px;
+  }
   .input {
     width: 100% !important;
     padding: 0 6px !important;
     margin: 24px 90px !important;
-    text-align: center !important; }
-
+    text-align: center !important;
+  }
   .send {
     display: block;
     width: 100%;
-    margin: 0 66px; }
-
+    margin: 0 66px;
+  }
   .stay-responsive {
     z-index: 1 !important;
     position: absolute !important;
     height: 100% !important;
     width: 100% !important;
     bottom: -320px !important;
-    top: auto !important; }
-
+    top: auto !important;
+  }
   /*footer-upper*/
   .footer-upper {
-    padding: 260px 0 50px; } }
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    padding: 260px 0 50px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px)  {
   .img-logo {
     width: 100%;
-    max-width: 100%; }
-
+    max-width: 100%;
+  }
   .menu-main {
-    display: none; }
-
+    display: none;
+  }
   .col-res {
-    width: 100% !important; }
-
+    width: 100% !important;
+  }
   .nav-toggler {
     position: absolute;
     top: 34px;
@@ -395,181 +415,186 @@
     width: 50px;
     text-align: center;
     border-radius: 3px;
-    border: 2px solid #5ec79c; }
-    .nav-toggler .icon {
-      color: #ffffff;
-      padding-top: 10px; }
-
+    border: 2px solid #5ec79c;
+    .icon {
+    color: #ffffff;
+    padding-top: 10px;
+    }
+  }
   /*intro-bkg-content*/
   .content-box {
     position: relative !important;
-    top: 30px !important;
+    top: 30px !important;;
     z-index: 1;
-    padding: 0 !important; }
-    .content-box .title-organe, .content-box .desc-text {
-      text-align: center; }
-    .content-box .read-more-hidden {
-      display: block;
-      text-align: center; }
-    .content-box .title-organe {
-      text-align: center !important;
-      margin-top: 30px; }
-    .content-box .inner-box::before {
-      background: none !important; }
-
+    padding: 0 !important;
+    .title-organe, .desc-text  {
+      text-align: center;
+    }
+  .read-more-hidden {
+    display: block;
+    text-align: center;
+  }
+  .title-organe {
+    text-align: center !important;
+    margin-top: 30px;
+  }
+  .inner-box::before {
+    background: none !important;
+    }
+  }
   .title-farm, .title-locally, .btn-hidden {
-    display: none; }
-
+    display: none;
+  }
   /*.about-our-farm*/
   .about-our-farm {
-    margin-top: 100px; }
-
+    margin-top: 100px;
+  }
   /*our-new-products*/
   .fruit-responsive {
     margin: 30px 30px 0 0 !important;
     width: calc((100% - 90px) / 2) !important;
-    float: left !important; }
-
+    float: left !important;
+  }
   .circle-item {
-    width: 100% !important; }
-
+    width: 100% !important;
+  }
   .circle-txt {
-    left: 44% !important; }
-
+    left: 44% !important;
+  }
   .title-look {
     padding: 0 25px 20px;
-    width: 100%; }
-
+    width: 100%;
+  }
   .desc-beautiful {
     width: 100%;
-    padding: 0 14px; }
-
+    padding: 0 14px;
+  }
   /*outer-box*/
   .img-left, .img-right {
-    display: none; }
-
+    display: none;
+  }
   .colum-resive {
-    margin-top: 125px; }
-
+    margin-top: 125px;
+  }
   .save-up-box {
-    margin-left: 10px; }
-
+    margin-left: 10px;
+  }
   .save-up-box {
-    float: none !important;
-    width: auto !important; }
-
-  .free-shipping-box {
+   float: none !important;
+   width: auto !important;
+  }
+ .free-shipping-box {
     position: relative !important;
     top: -380px !important;
-    width: auto !important; }
-
+    width: auto !important;
+  }
   .title-on, .title-first-purchase {
-    margin-left: 8px; }
-
+    margin-left: 8px;
+  }
   .right-column {
-    height: 0; }
-
+    height: 0;
+  }
   .owl-nav {
-    display: none; }
-
+    display: none;
+  }
   .title-box {
     position: absolute !important;
     top: 0px;
     width: 100%;
     padding: 0 -20px;
-    font-size: 32px; }
-
+    font-size: 32px;
+  }
   /*deal-of-day*/
   .deal-of-day {
     width: 100%;
-    padding: 400px 0 140px !important; }
-
+    padding: 400px 0 140px !important;
+  }
   .title-box-save {
-    text-align: center; }
-
+    text-align: center;
+  }
   .title-box-deal {
     font-size: 52px;
-    text-align: center; }
-
+    text-align: center;
+  }
   .img-our {
     position: absolute !important;
     left: -450px !important;
-    top: 160px !important; }
-
+    top: 160px !important;
+  }
   .slide-col {
     margin-top: 180px !important;
-    width: 100% !important; }
-
+    width: 100% !important;
+  }
   /*team-our-farmers*/
   .img-colum {
     width: 50% !important;
-    float: left !important; }
-
+    float: left !important;
+  }
   /*testimonial-section*/
   .desc-carousel {
-    margin-left: 0 !important; }
-
+    margin-left: 0 !important;
+  }
   .queto-infor {
     padding: 0 !important;
-    text-align: center !important; }
-
+    text-align: center !important;
+  }
   .img-author {
     position: relative !important;
-    top: 10px; }
-
+    top: 10px;
+  }
   .icon-box {
-    display: none; }
-
-  /*.stay-for-updates*/
+    display: none;
+  }
+   /*.stay-for-updates*/
   .stay-for-updates {
-    padding: 20px 0 120px !important; }
-
+    padding: 20px 0 120px !important;
+  }
   .right-stay {
     z-index: 1;
     position: absolute;
     height: 100%;
     width: 100%;
-    bottom: -320px !important; }
-
+    bottom: -320px !important;
+  }
   .inner-box {
     width: 100% !important;
-    text-align: center !important; }
-
+    text-align: center !important;
+  }
   .title-over {
     width: 100%;
     text-align: center;
-    padding: 0 140px; }
-
+    padding: 0 140px;
+  }
   .title-updates {
     width: 100%;
-    padding: 0 140px; }
-
+    padding: 0 140px;
+  }
   .input {
     width: 100% !important;
     padding: 0 6px !important;
     margin: 24px 140px !important;
-    text-align: center !important; }
-
+    text-align: center !important;
+  }
   .send {
     display: block;
     width: 100%;
-    margin: 0 116px; }
-
+    margin: 0 116px;
+  }
   .stay-responsive {
     z-index: 1 !important;
     position: absolute !important;
     height: 100% !important;
     width: 100% !important;
     bottom: -320px !important;
-    top: auto !important; }
-
+    top: auto !important;
+  }
   /*footer-upper*/
   .footer-upper {
-    padding: 350px 0 50px; }
-
+    padding: 350px 0 50px;
+  }
   .col-foter-responsive {
     width: calc((100% - 90px)/ 2) !important;
     float: left !important;
-    margin-right: 30px; } }
-
-/*# sourceMappingURL=responsive.css.map */
+    margin-right: 30px;
+  }
+}
