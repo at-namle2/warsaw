@@ -48,3 +48,9 @@
   left: 0px;
   top: 0px;
 }
+%social-link-a  {
+  color: map-get($color, gray);
+  &:hover {
+    color: map-get($color, orange);
+  }
+}

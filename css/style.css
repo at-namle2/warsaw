@@ -277,6 +277,11 @@ h1, h2, h3, h4, h5, h6 {
   left: 0px;
   top: 0px; }
 
+.team-our-farmers .default-team .img-colum .social-links .social-link-a, .team-our-farmers .default-team .inner-rigth .social-links .social-link-a {
+  color: #777777; }
+  .team-our-farmers .default-team .img-colum .social-links .social-link-a:hover, .team-our-farmers .default-team .inner-rigth .social-links .social-link-a:hover {
+    color: #f5b062; }
+
 .container {
   max-width: 1200px;
   padding: 0px 15px;
@@ -343,6 +348,31 @@ h1, h2, h3, h4, h5, h6 {
 
 .shows-slide {
   position: relative; }
+  .shows-slide .tprwow {
+    top: 50% !important;
+    left: 0px !important; }
+    .shows-slide .tprwow .tprwow-left {
+      position: absolute;
+      width: 30px;
+      height: 110px;
+      background: rgba(0, 0, 0, 0.5);
+      z-index: 100;
+      display: block;
+      left: 0;
+      top: 40%; }
+      .shows-slide .tprwow .tprwow-left .chevron {
+        padding: 44px 8px; }
+    .shows-slide .tprwow .tprwow-right {
+      position: absolute;
+      width: 30px;
+      height: 110px;
+      background: rgba(0, 0, 0, 0.5);
+      z-index: 100;
+      display: block;
+      right: 0;
+      top: 40%; }
+      .shows-slide .tprwow .tprwow-right .chevron {
+        padding: 44px 8px; }
   .shows-slide .farm-fresh {
     position: absolute;
     top: 25%;
@@ -669,16 +699,8 @@ h1, h2, h3, h4, h5, h6 {
         padding: 50px 50px 20px; }
         .team-our-farmers .default-team .img-colum .inner .text {
           color: #bdbdbd; }
-      .team-our-farmers .default-team .img-colum .social-links .social-links-a {
-        color: #777777; }
-        .team-our-farmers .default-team .img-colum .social-links .social-links-a:hover {
-          color: #f5b062; }
     .team-our-farmers .default-team .inner-rigth {
       padding: 50px 50px 74px; }
-      .team-our-farmers .default-team .inner-rigth .social-links .social-links-a {
-        color: #777777; }
-        .team-our-farmers .default-team .inner-rigth .social-links .social-links-a:hover {
-          color: #f5b062; }
 
 .testimonial-section {
   position: relative;
