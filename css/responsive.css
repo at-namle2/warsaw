@@ -34,7 +34,7 @@
     top: 30px !important;
     z-index: 1;
     padding: 0 !important; }
-    .content-box .inner-box::before {
+    .content-box .inner-box::before, .content-box .inner-box::after {
       background: none !important; }
     .content-box .desc-text {
       text-align: center; }
@@ -239,7 +239,7 @@
   .title-organe, .desc-text {
     text-align: center; }
 
-  .inner-box::before {
+  .inner-box::before, .inner-box::after {
     background: none !important; }
 
   /*.about-our-farm*/
@@ -429,7 +429,7 @@
     .content-box .title-organe {
       text-align: center !important;
       margin-top: 30px; }
-    .content-box .inner-box::before {
+    .content-box .inner-box::before, .content-box .inner-box::after {
       background: none !important; }
 
   .title-farm, .title-locally, .btn-hidden {
