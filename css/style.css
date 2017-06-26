@@ -262,7 +262,7 @@ h1, h2, h3, h4, h5, h6 {
   outline: none;
   border: none; }
 
-.deal-of-day .owl-nav .owl-prev, .deal-of-day .owl-nav .owl-next {
+.deal-of-day .owl-nav-prev .owl-prev-continue, .deal-of-day .owl-nav-prev .owl-next-continue {
   display: inline-block;
   width: 40px;
   height: 40px;
@@ -270,7 +270,7 @@ h1, h2, h3, h4, h5, h6 {
   border: 2px solid #f5b062;
   border-radius: 3px;
   line-height: 37px; }
-  .deal-of-day .owl-nav .owl-prev:hover, .deal-of-day .owl-nav .owl-next:hover {
+  .deal-of-day .owl-nav-prev .owl-prev-continue:hover, .deal-of-day .owl-nav-prev .owl-next-continue:hover {
     -webkit-transition: all 0.5s linear;
     -moz-transition: all 0.5s linear;
     -o-transition: all 0.5s linear;
@@ -355,7 +355,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 30px;
     padding: 0 10px;
     background: #ffffff;
-    border-top: 3px solid #5ec79c; }
+    border-top: 3px solid #f5b062; }
     .top-header .menu-main .menu-sub .sub-menu .sub-menu-item {
       position: relative;
       width: 100%;
@@ -478,6 +478,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .intro-bkg-content {
   position: relative;
+  top: -8px;
   background: url(../images/bg/pattern.png) center center no-repeat;
   background-size: cover;
   z-index: 12;
@@ -749,7 +750,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     height: 100%;
     background: rgba(244, 238, 222, 0.94); }
-  .deal-of-day .owl-nav {
+  .deal-of-day .owl-nav-prev {
     position: relative; }
   .deal-of-day .title-box {
     position: relative; }
@@ -926,6 +927,8 @@ h1, h2, h3, h4, h5, h6 {
       background: #5ec79c; }
   .our-partners .menu-owl-loaded .menu-owl-loaded-item {
     display: inline-block; }
+  .our-partners .owl-nav, .our-partners .owl-dots {
+    display: none; }
 
 .stay-for-updates {
   position: relative;

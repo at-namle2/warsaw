@@ -47,6 +47,7 @@
 // * intro-bkg-content *//
 .intro-bkg-content {
   position: relative;
+  top: -8px;
   background: url(../images/bg/pattern.png) center center no-repeat;
   background-size: cover;
   z-index: 12;
@@ -382,12 +383,12 @@
     height: 100%;
     background: rgba(244,238,222,0.94);
   }
-  .owl-nav {
+  .owl-nav-prev {
     position: relative;
-    .owl-prev {
+    .owl-prev-continue {
       @extend %owl;
     }
-    .owl-next {
+    .owl-next-continue {
      @extend %owl;
     }
   }
@@ -618,6 +619,9 @@
     .menu-owl-loaded-item {
       display: inline-block;
     }
+  }
+  .owl-nav, .owl-dots {
+    display: none;
   }
 }
 .stay-for-updates {
