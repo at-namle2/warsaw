@@ -20,6 +20,43 @@
         }
       }
     }
+    .menu-sub {
+      position: relative;
+      .sub-menu {
+        display: none;
+        position: absolute;
+        left: 0;
+        top: 70%;
+        color: red;
+        width: 200px;
+        z-index: 100;
+        margin-top: 30px;
+        padding: 0 10px;
+        background: map-get($color, white);
+        border-top: 3px solid map-get($color, green);
+        .sub-menu-item  {
+          position: relative;
+          width: 100%;
+          border-bottom: 1px solid rgba(0,0,0,0.10);
+          .sub-menu-item-a {
+            @include transition(all 0.5s linear);
+            position: relative;
+            display: block;
+            padding: 10px 15px;
+            line-height: 24px;
+            font-weight: 400;
+            text-transform: capitalize;
+            text-decoration: none;
+            color: map-get($color, gray-6);
+          }
+        }
+      }
+      &:hover {
+        .sub-menu {
+          display: block;
+        }
+      }
+    }
   }
   .nav-toggler {
     display: none;
