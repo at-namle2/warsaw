@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <link rel="stylesheet" href="js/assets/css/docs.theme.min.css">
+  <link rel="stylesheet" href="js/assets/owlcarousel/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="js/assets/owlcarousel/assets/owl.theme.default.min.css">
+  <style type="text/css" media="screen">
+    .item {
+      margin: 3px;
+    }
+    #owl-demo .item img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+  </style>
+  <!-- javascript -->
+  <script src="js/assets/vendors/jquery.min.js"></script>
+  <script src="js/assets/owlcarousel/owl.carousel.js"></script>
+  <script type="text/javascript">
+   $(document).ready(function() {
+      $('.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 10,
+        responsiveClass: true,
+        responsive: {
+          0: {
+            items: 1,
+            nav: true
+          },
+          600: {
+            items: 3,
+            nav: false
+          },
+          1000: {
+            items: 5,
+            nav: true,
+            loop: false,
+            margin: 20
+          }
+        }
+      })
+    })
+  </script>
+</head>
+<body>
+  <ul id="owl-demo" class="owl-carousel owl-theme">
+    <li class="item"><img src="images/partners/1.png" alt="owl Image"></li>
+    <li class="item"><img src="images/partners/1.png" alt="owl Image"></li>
+    <li class="item"><img src="images/partners/1.png" alt="owl Image"></li>
+    <li class="item"><img src="images/partners/1.png" alt="owl Image"></li>
+    <li class="item"><img src="images/partners/1.png" alt="owl Image"></li>
+    <li class="item"><img src="images/partners/1.png" alt="owl Image"></li>
+  </ul>
+</body>
+</html>

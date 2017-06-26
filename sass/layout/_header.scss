@@ -9,6 +9,7 @@
         text-decoration: none;
         color: map-get($color, gray);
         &:hover {
+          @include transition(all 0.5s linear);
           color: map-get($color, green);
         }
         &.active {

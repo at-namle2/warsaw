@@ -124,6 +124,10 @@ h1, h2, h3, h4, h5, h6 {
     color: #5ec79c;
     text-decoration: none; }
     .btn.btn-organe:hover {
+      -webkit-transition: all 0.5s linear;
+      -moz-transition: all 0.5s linear;
+      -o-transition: all 0.5s linear;
+      transition: all 0.5s linear;
       background: transparent;
       border: 2px solid #f5b062;
       color: #ffffff; }
@@ -132,6 +136,10 @@ h1, h2, h3, h4, h5, h6 {
     background: #5ec79c;
     text-decoration: none; }
     .btn.btn-green:hover {
+      -webkit-transition: all 0.5s linear;
+      -moz-transition: all 0.5s linear;
+      -o-transition: all 0.5s linear;
+      transition: all 0.5s linear;
       background: transparent;
       border: 2px solid #5ec79c;
       color: #5ec79c; }
@@ -141,6 +149,10 @@ h1, h2, h3, h4, h5, h6 {
     color: #5ec79c;
     text-decoration: none; }
     .btn.btn-green-2:hover {
+      -webkit-transition: all 0.5s linear;
+      -moz-transition: all 0.5s linear;
+      -o-transition: all 0.5s linear;
+      transition: all 0.5s linear;
       background: #5ec79c;
       color: #ffffff; }
   .btn.btn-white {
@@ -149,6 +161,10 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: none;
     border: 2px solid #ffffff; }
     .btn.btn-white:hover {
+      -webkit-transition: all 0.5s linear;
+      -moz-transition: all 0.5s linear;
+      -o-transition: all 0.5s linear;
+      transition: all 0.5s linear;
       background: #ffffff;
       color: #000000; }
 
@@ -255,6 +271,10 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 3px;
   line-height: 37px; }
   .deal-of-day .owl-nav .owl-prev:hover, .deal-of-day .owl-nav .owl-next:hover {
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     background: #f5b062;
     color: #ffffff; }
 
@@ -268,6 +288,10 @@ h1, h2, h3, h4, h5, h6 {
   border: 2px solid #5ec79c;
   margin-right: 10px; }
   .deal-of-day .our-stage-outer .our-stage .slide-col .theme-btn:hover, .deal-of-day .our-stage-outer .our-stage .slide-col .shop-btn:hover {
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     background: #5ec79c;
     color: #ffffff; }
 
@@ -278,8 +302,22 @@ h1, h2, h3, h4, h5, h6 {
   top: 0px; }
 
 .team-our-farmers .default-team .img-colum .social-links .social-link-a, .team-our-farmers .default-team .inner-rigth .social-links .social-link-a {
-  color: #777777; }
+  color: #777777;
+  padding: 0 6px; }
   .team-our-farmers .default-team .img-colum .social-links .social-link-a:hover, .team-our-farmers .default-team .inner-rigth .social-links .social-link-a:hover {
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+    color: #f5b062; }
+
+.team-our-farmers .default-team .img-colum .inner .title-parker, .team-our-farmers .default-team .inner-rigth .title-parker {
+  font-weight: 700; }
+  .team-our-farmers .default-team .img-colum .inner .title-parker:hover, .team-our-farmers .default-team .inner-rigth .title-parker:hover {
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     color: #f5b062; }
 
 .container {
@@ -295,6 +333,10 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: none;
     color: #777777; }
     .top-header .menu-main .menu-item .menu-item-a:hover {
+      -webkit-transition: all 0.5s linear;
+      -moz-transition: all 0.5s linear;
+      -o-transition: all 0.5s linear;
+      transition: all 0.5s linear;
       color: #5ec79c; }
     .top-header .menu-main .menu-item .menu-item-a.active {
       color: #5ec79c; }
@@ -345,6 +387,23 @@ h1, h2, h3, h4, h5, h6 {
   background: #e0e0e0; }
   .footer-bottom .copyright {
     color: #bdbdbd; }
+
+.scroll-top {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  position: fixed;
+  display: block;
+  width: 40px;
+  height: 40px;
+  bottom: 15px;
+  right: 15px;
+  line-height: 38px;
+  z-index: 100;
+  cursor: pointer;
+  color: #ffffff;
+  background: #000000; }
 
 .shows-slide {
   position: relative; }
@@ -553,7 +612,7 @@ h1, h2, h3, h4, h5, h6 {
       position: relative;
       float: left;
       top: -254px;
-      right: -14px;
+      right: -60px;
       width: 60%; }
       .outer-box .right-column .free-shipping-box .title-over {
         color: #ffffff; }
@@ -608,6 +667,10 @@ h1, h2, h3, h4, h5, h6 {
           color: #333333;
           text-decoration: none; }
           .our-new-products .row-well .menu-filer .menu-new .menu-new-item .new-a:hover {
+            -webkit-transition: all 0.5s linear;
+            -moz-transition: all 0.5s linear;
+            -o-transition: all 0.5s linear;
+            transition: all 0.5s linear;
             color: #f5b062; }
     .our-new-products .row-well .fruit {
       border: 1px solid #e0e0e0;
@@ -623,6 +686,12 @@ h1, h2, h3, h4, h5, h6 {
         .our-new-products .row-well .fruit .lower-content .title-fruits {
           text-decoration: none;
           color: #333333; }
+          .our-new-products .row-well .fruit .lower-content .title-fruits:hover {
+            -webkit-transition: all 0.5s linear;
+            -moz-transition: all 0.5s linear;
+            -o-transition: all 0.5s linear;
+            transition: all 0.5s linear;
+            color: #5ec79c; }
         .our-new-products .row-well .fruit .lower-content .price {
           color: #5ec79c; }
 

@@ -263,7 +263,7 @@
       position: relative;
       float: left;
       top: -254px;
-      right: -14px;
+      right: -60px;
       width: 60%;
       .title-over {
         color: map-get($color, white);
@@ -334,6 +334,7 @@
             color: map-get($color, gray-3);
             text-decoration: none;
             &:hover {
+              @include transition(all 0.5s linear);
               color: map-get($color, orange);
             }
           }
@@ -356,6 +357,10 @@
         .title-fruits {
           text-decoration: none;
           color: map-get($color, gray-3);
+          &:hover {
+            @include transition(all 0.5s linear);
+            color: map-get($color, green);
+          }
         }
         .price {
           color: map-get($color, green);
@@ -461,6 +466,9 @@
         .text {
           color: map-get($color, gray-5);
         }
+        .title-parker {
+          @extend %title-parker;
+        }
       }
       .social-links {
         .social-link-a {
@@ -470,6 +478,9 @@
     }
     .inner-rigth {
       padding: 50px 50px 74px;
+      .title-parker {
+        @extend %title-parker;
+      }
       .social-links {
         .social-link-a {
           @extend %social-link-a;
@@ -477,7 +488,6 @@
       }
     }
   }
-
 }
 // * team-our-farmers *//
 .testimonial-section {

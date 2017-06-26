@@ -150,6 +150,9 @@ $break-medium: 480px;
     display: none;
   }
   /*.stay-for-updates*/
+  .free-shipping-box {
+    right: -14px !important;
+  }
   .stay-for-updates {
     padding: 20px 0 120px !important;
   }
@@ -359,6 +362,9 @@ $break-medium: 480px;
    /*.stay-for-updates*/
   .stay-for-updates {
     padding: 20px 0 120px !important;
+  }
+   .free-shipping-box {
+    right: -14px !important;
   }
   .right-stay {
     z-index: 1;

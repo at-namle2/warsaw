@@ -24,6 +24,7 @@
   border-radius: 3px;
   line-height: 37px;
   &:hover {
+    @include transition(all 0.5s linear);
     background: map-get($color, orange);
     color:  map-get($color, white);
   }
@@ -38,6 +39,7 @@
   border: 2px solid map-get($color, green);
   margin-right: 10px;
   &:hover {
+    @include transition(all 0.5s linear);
     background: map-get($color, green);
     color:  map-get($color, white);
   }
@@ -50,7 +52,16 @@
 }
 %social-link-a  {
   color: map-get($color, gray);
+  padding: 0 6px;
   &:hover {
+    @include transition(all 0.5s linear);
+    color: map-get($color, orange);
+  }
+}
+%title-parker {
+  font-weight: 700;
+  &:hover {
+    @include transition(all 0.5s linear);
     color: map-get($color, orange);
   }
 }

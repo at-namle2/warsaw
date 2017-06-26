@@ -48,6 +48,7 @@ h1, h2 , h3, h4, h5, h6 {
     color: map-get($color, green);
     text-decoration: none;
     &:hover {
+      @include transition(all 0.5s linear);
       background: transparent;
       border: 2px solid map-get($color, orange);
       color: map-get($color, white);
@@ -58,6 +59,7 @@ h1, h2 , h3, h4, h5, h6 {
     background: map-get($color, green);
     text-decoration: none;
     &:hover {
+      @include transition(all 0.5s linear);
       background: transparent;
       border: 2px solid map-get($color, green);
       color: map-get($color, green);
@@ -69,6 +71,7 @@ h1, h2 , h3, h4, h5, h6 {
     color: map-get($color, green);
     text-decoration: none;
     &:hover {
+      @include transition(all 0.5s linear);
       background: map-get($color, green);
       color: map-get($color, white);
     }
@@ -79,6 +82,7 @@ h1, h2 , h3, h4, h5, h6 {
     text-decoration: none;
     border: 2px solid map-get($color, white);
     &:hover {
+      @include transition(all 0.5s linear);
       background: map-get($color, white);
       color: map-get($color, black);
     }
